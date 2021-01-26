@@ -5,7 +5,13 @@
 	git config --global user.email '사용자이메일'
 2. 폴더를 git이 관리하느 폴더 만들기
 	git init
-	git checkout -d master : 
+	git checkout -b main : 
 	git status : 
+3. 파일을 생성하고 add, commit 해보기
+	git add : 뱐걍이 있었던 파일을 staging area에 추가
+		git add gitStudy.txt
+	git commit: 변경 내용을 기록
+	git commit -m '[A]처음으로 git commit 한 날'
+	
 	
 	
