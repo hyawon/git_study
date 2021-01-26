@@ -3,15 +3,23 @@
 1. 계정 정보 등록
 	git config --global user.name '사용자이름'
 	git config --global user.email '사용자이메일'
+	
 2. 폴더를 git이 관리하느 폴더 만들기
 	git init
-	git checkout -b main : 
-	git status : 
+	git checkout -b main : main 브랜치를 만들어서 해당 브랜치로 이동
+	git status : 현재 상태 확인
+	
 3. 파일을 생성하고 add, commit 해보기
 	git add : 뱐걍이 있었던 파일을 staging area에 추가
 		git add gitStudy.txt
 	git commit: 변경 내용을 기록
-	git commit -m '[A]처음으로 git commit 한 날'
+		git commit -m '[A]처음으로 git commit 한 날'
+	git log : log확인
 	
+4. 파일을 수정하고 add, commit 해보기
+	git add . : 수정내역이 있는 모든 파일을 staging area 추가
+	git commit : commit 메세지를 자세히 적어야 한다면 -m 옵션을 제외하고 commit을 진행
+	text 에디터가 나오면 i를 눌러서 입력모드로 전환하고 메세지를 구체적으로 작성,
+	작성이 끝나면 <esc> + : wq(저장하고 나가기) 를 입력해 commit을 완료
 	
 	
